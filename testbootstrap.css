@@ -1,0 +1,72 @@
+.container {
+  background-color: purple;
+  height: 5rem;
+}
+
+.row {
+  background-color: black;
+  height: 4.7rem;
+}
+
+[class*="col-"]
+p.margin_auto {
+  width: 800px;
+  margin: auto;
+}
+
+p. fixed {
+  position: fixed;
+  bottom: 0;
+  right: 0:auto;border: 2px solid black;
+}
+
+/* CSS from website  */
+/* Comments in CSS */
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: Helvetica;
+  background-color: #6b5b95;
+}
+
+h1 {
+  border: 2px solid red;
+  border-radius: 5px;
+}
+h2 {
+  color:#555;
+  border-top: solid 1px #333;
+}
+p {
+    border-left: 6px solid red;
+    background-color: lightgrey;
+}
+p {
+    margin: 25px 50px 75px 100px;
+}
+
+ul{
+    list-style-type: circle;
+}
+
+#emphasis {
+  font-size 30px;
+}
+
+#lorem_ipsum {
+  font-size: 30px;
+  font-family: Monaco, monospace;
+}
+
+.term{
+  background: #222;
+  color: #eee;
+  font-size: 16px;
+}
+
+/* Styling strong within a p within a term  */
+.term p strong, p strong {
+  font-size: 50px;
+}
